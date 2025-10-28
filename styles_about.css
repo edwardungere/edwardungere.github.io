@@ -1,0 +1,26 @@
+nav {
+    font-family: Sora, Roboto Slab, serif;
+    font-size: 2.1rem;
+    line-height: 3.4rem;
+    margin-bottom: -.7rem;
+    margin-top: -.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+}
+
+p {
+  font-family: Sora, Roboto Slab, serif;
+  text-decoration: none;
+  color: #000000;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
