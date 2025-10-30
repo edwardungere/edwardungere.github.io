@@ -23,4 +23,11 @@ p {
 a {
   text-decoration: inherit;
   color: inherit;
+  text-decoration: underline;
+}
+
+body > p {
+  padding: 1em;
+  line-height: 2.5;
+  text-align: center;
 }

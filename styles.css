@@ -14,3 +14,15 @@ nav a {
   color: #000000;
   text-decoration: none;
 }
+
+p {
+  text-align: center;
+  color: #000000;
+  font: 1.5em Sora;
+}
+
+p > a {
+  text-decoration: none;
+  color: inherit;
+  text-decoration: underline;
+}
