@@ -1,9 +1,11 @@
 nav {
     font-family: Sora, Roboto Slab;
-    font-size: 2.1rem;
+    font-size: 2rem;
     line-height: 3.4rem;
     margin-bottom: -.7rem;
     margin-top: -.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +20,10 @@ nav a {
 p {
   text-align: center;
   color: #000000;
-  font: 1.5em Sora;
+  font: 1em Sora;
+   padding: 1em;
+  line-height: 2.5;
+  text-align: center;
 }
 
 p > a {
