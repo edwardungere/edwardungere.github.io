@@ -1,33 +1,26 @@
-nav {
-    font-family: Sora, Roboto Slab;
-    font-size: 2rem;
-    line-height: 3.4rem;
-    margin-bottom: -.7rem;
-    margin-top: -.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-nav a {
-  color: #000000;
-  text-decoration: none;
+body {
+  background-color: #f5efea00;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20em;
 }
 
 p {
-  text-align: center;
+  font-size: 1em;
   color: #000000;
-  font: 1em Sora;
-   padding: 1em;
   line-height: 2.5;
-  text-align: center;
 }
 
 p > a {
   text-decoration: none;
-  color: inherit;
+  color: #000000;
   text-decoration: underline;
+}
+
+ul {
+  font-size: 1em;
 }
