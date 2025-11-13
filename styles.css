@@ -18,6 +18,24 @@ body {
     max-width: 48em;
     max-height: 37.5em;
   }
+
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: .75rem;
+      padding: 2em;
+    background-color: #f5efea00;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30em;
+    max-width: 48em;
+    max-height: 37.5em;
+    }
+    
+  }
   .container {
     display: flex;
   }
