@@ -5,7 +5,7 @@ body {
 
 @media (min-width: 768px) {
   body {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 2em;
     background-color: #f5efea00;
     margin: 0;
