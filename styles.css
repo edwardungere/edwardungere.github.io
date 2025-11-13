@@ -1,58 +1,55 @@
 @media (min-width: 768px) {
   body {
     font-size: 1.1rem;
+    line-height: 1.7;
     padding: 2em;
-    background-color: #f5efea00;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+    margin: 0 auto;
+    margin-right: 2.8em;
+    max-width: 48em;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
-    margin-left: 30em;
-    max-width: 48em;
-    max-height: 37.5em;
-    line-height: 1.7;
+    background-color: #f6f6f6;
   }
 }
 
 @media screen and (max-width: 480px) {
   body {
-    font-size: 0.9rem; /* readable on small screens */
+    font-size: 0.9rem;
+    line-height: 1.6;
     padding: 1em;
-    background-color: #f5efea00;
     margin: 0;
-    height: auto;
-    width: 100%;
-    overflow-x: hidden; 
-    display: flex;
-    flex-direction: column;
+    background-color: #f6f6f6;;
   }
-  
+
   main, header, footer, section, div {
-    max-width: 100%;
     width: 100%;
+    max-width: 100%;
     box-sizing: border-box;
+  }
+
+  img, video {
+    max-width: 100%;
+    height: auto;
   }
 }
 
 .container {
-    display: flex;
-  }
+  display: flex;
+}
 
-  p {
-  font-size: .9em;
-  color: #000000;
-  line-height: 2.5;
+p {
+  font-size: 0.9rem;
+  color: #000;
+  line-height: 1.8;
 }
 
 p > a {
-  text-decoration: none;
-  color: #000000;
+  color: #000;
   text-decoration: underline;
 }
 
 ul {
-  font-size: .9em;
-  margin: -.5em;
+  font-size: 0.9rem;
+  margin: 0.5em 0;
 }
